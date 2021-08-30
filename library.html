@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Library</title>
+        <link href="styles/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="enter">
+            <form id="new_book_form">
+            <label><b>ADD BOOK DETAILS </b></label></br></br></br>
+            <input type="text" id="inputTitle" placeholder="Title"></br></br>
+            <input type="text" id="inputAuthor" placeholder="Author"></br></br>
+            <input type="text" id="inputPages" placeholder="Pages"></br></br>
+            <select id="readingProgress">
+              <option disabled>--Select--</option>
+              <option>Read</option>
+              <option>In Progress</option>
+              <option>Not Read Yet</option>
+            </select></br></br>
+            <div>
+              <button id="btn" type="button">Add Book</button>
+        </div><br><br>
+            
+        </form>
+        <center>
+            <table border="solid black">
+             
+                  <tr>
+                
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>Pages</th>
+                  <th>Reading Status</th>
+                </tr>
+                <tbody id="bookList"></tbody>
+
+            </table>
+        </center>
+    </body>
+    <script src="library.js"> 
+    
+    </script>
+</html>
